@@ -1,10 +1,11 @@
 import { useTranslations } from 'next-intl';
 import { useMessages } from 'next-intl';
+import { siteConfig } from '@/config';
 
 export default function MapEmbed() {
   const t = useTranslations('mapSection');
   const messages = useMessages() as any;
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/2VPEts66p8h1J8YS7';
+  const mapsLink = messages?.hero?.mapsLink || siteConfig.mapsUrl;
 
   return (
     <section id="map" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
@@ -28,13 +29,13 @@ export default function MapEmbed() {
             This is for visual cleanliness only. Google's Terms of Service apply.
           */}
           <iframe
-            src="https://maps.google.com/maps?q=Trigonion+Tower+Thessaloniki&output=embed"
+            src={siteConfig.mapsEmbedSrc}
             width="100%"
             height="450"
             style={{ border: 0 }}
             allowFullScreen
             loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
+            referrerPolicy="strict-origin-when-cross-origin"
             title="Google Maps - Trigonion Tower"
           />
         </div>
@@ -60,6 +61,20 @@ export default function MapEmbed() {
             </svg>
           </a>
         </div>
+
+        {/* Authoritative official tourism portal */}
+        <p className="mt-6 text-center text-sm" style={{ color: 'var(--text-muted)' }}>
+          {t('officialPortalIntro')}{' '}
+          <a
+            href={siteConfig.govtTourismUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hover:underline font-medium"
+            style={{ color: 'var(--accent)' }}
+          >
+            {siteConfig.officialPortalLabel}
+          </a>
+        </p>
       </div>
     </section>
   );

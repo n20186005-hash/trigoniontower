@@ -1,17 +1,18 @@
 import { useTranslations } from 'next-intl';
+import { siteConfig } from '@/config';
 
 export default function Hero() {
   const t = useTranslations('hero');
 
-  const mapsLink = t('mapsLink') || 'https://maps.app.goo.gl/2VPEts66p8h1J8YS7';
+  const mapsLink = t('mapsLink') || siteConfig.mapsUrl;
 
   return (
     <section className="relative min-h-screen flex items-end pb-16 sm:pb-24 overflow-hidden">
       {/* Background image slideshow */}
       <div className="absolute inset-0">
         <img
-          src="/gallery/trigonion-tower (1).jpg"
-          alt="Trigonion Tower"
+          src={siteConfig.heroImage}
+          alt={`${siteConfig.attractionFullName} - Main view in ${siteConfig.city}, ${siteConfig.country}`}
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0" style={{ background: 'var(--hero-overlay)' }} />

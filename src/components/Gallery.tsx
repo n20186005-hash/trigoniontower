@@ -2,25 +2,26 @@
 
 import { useTranslations, useMessages } from 'next-intl';
 import { useState, useCallback } from 'react';
+import { siteConfig } from '@/config';
 
 const photos = [
-  { src: '/gallery/trigonion-tower (1).jpg', alt: 'Trigonion Tower Photo 1' },
-  { src: '/gallery/trigonion-tower (2).jpg', alt: 'Trigonion Tower Photo 2' },
-  { src: '/gallery/trigonion-tower (4).jpg', alt: 'Trigonion Tower Photo 3' },
-  { src: '/gallery/trigonion-tower (5).jpg', alt: 'Trigonion Tower Photo 4' },
-  { src: '/gallery/trigonion-tower (6).jpg', alt: 'Trigonion Tower Photo 5' },
-  { src: '/gallery/trigonion-tower (7).jpg', alt: 'Trigonion Tower Photo 6' },
-  { src: '/gallery/trigonion-tower (8).jpg', alt: 'Trigonion Tower Photo 7' },
-  { src: '/gallery/trigonion-tower (9).jpg', alt: 'Trigonion Tower Photo 8' },
-  { src: '/gallery/trigonion-tower (10).jpg', alt: 'Trigonion Tower Photo 9' },
-  { src: '/gallery/trigonion-tower (11).jpg', alt: 'Trigonion Tower Photo 10' },
-  { src: '/gallery/trigonion-tower (12).jpg', alt: 'Trigonion Tower Photo 11' },
-  { src: '/gallery/trigonion-tower (13).jpg', alt: 'Trigonion Tower Photo 12' },
-  { src: '/gallery/trigonion-tower (14).jpg', alt: 'Trigonion Tower Photo 13' },
-  { src: '/gallery/trigonion-tower (15).jpg', alt: 'Trigonion Tower Photo 14' },
-  { src: '/gallery/trigonion-tower (16).jpg', alt: 'Trigonion Tower Photo 15' },
-  { src: '/gallery/trigonion-tower (17).jpg', alt: 'Trigonion Tower Photo 16' },
-  { src: '/gallery/trigonion-tower (18).jpg', alt: 'Trigonion Tower Photo 17' },
+  { src: '/gallery/trigonion-tower-01.jpg', alt: `${siteConfig.attractionShortName} - Main view in ${siteConfig.city}, ${siteConfig.country}` },
+  { src: '/gallery/trigonion-tower-02.jpg', alt: `${siteConfig.attractionShortName} - Panoramic view of ${siteConfig.city}` },
+  { src: '/gallery/trigonion-tower-03.jpg', alt: `The Byzantine walls near ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-04.jpg', alt: `${siteConfig.attractionShortName} - View over ${siteConfig.city}` },
+  { src: '/gallery/trigonion-tower-05.jpg', alt: `${siteConfig.city} from above near ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-06.jpg', alt: `${siteConfig.attractionShortName} - The Thermaic Gulf view` },
+  { src: '/gallery/trigonion-tower-07.jpg', alt: `${siteConfig.attractionShortName} - Tower architecture detail` },
+  { src: '/gallery/trigonion-tower-08.jpg', alt: `${siteConfig.nearbyLandmark1} near ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-09.jpg', alt: `Sunset over ${siteConfig.city} seen from ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-10.jpg', alt: `${siteConfig.city} Upper Town (Ano Poli) near ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-11.jpg', alt: `Historical architecture around ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-12.jpg', alt: `${siteConfig.attractionShortName} - The tower from afar` },
+  { src: '/gallery/trigonion-tower-13.jpg', alt: `The city walls near ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-14.jpg', alt: `View to the port from ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-15.jpg', alt: `${siteConfig.city} at night from ${siteConfig.attractionShortName}` },
+  { src: '/gallery/trigonion-tower-16.jpg', alt: `${siteConfig.attractionShortName} in winter` },
+  { src: '/gallery/trigonion-tower-17.jpg', alt: `${siteConfig.attractionShortName} - Tower entrance` },
 ];
 
 export default function Gallery() {
@@ -47,7 +48,7 @@ export default function Gallery() {
   const openLightbox = () => setIsLightboxOpen(true);
   const closeLightbox = () => setIsLightboxOpen(false);
 
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/7kurr3qMaSgWhNA59';
+  const mapsLink = messages?.hero?.mapsLink || siteConfig.mapsUrl;
 
   return (
     <>

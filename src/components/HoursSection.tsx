@@ -7,7 +7,7 @@ export default function HoursSection() {
   const t = useTranslations('hours');
 
   return (
-    <section className="section-padding">
+    <section id="hours" className="section-padding">
       <div className="max-w-4xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
@@ -19,6 +19,7 @@ export default function HoursSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
           <TimeCard title={t('park')} time={t('parkTime')} iconKey="park" />
+          <TimeCard title={t('tower')} time={t('towerTime')} iconKey="tower" />
           <TimeCard title={t('bestTime')} time={t('bestTimeSpring')} subtitle={t('bestTimeSummer')} iconKey="season" />
           <TimeCard title={t('bestTime')} time={t('bestTimeAutumn')} subtitle={t('bestTimeWinter')} iconKey="season" />
         </div>
@@ -58,6 +59,12 @@ function TimeCard({ title, time, subtitle, iconKey }: { title: string; time: str
         <line x1="21" y1="12" x2="23" y2="12"/>
         <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
         <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+      </svg>
+    ),
+    tower: (
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+        <path d="M9 3h6l2 3v12a3 3 0 0 1-3 3h-4a3 3 0 0 1-3-3V6l2-3z"/>
+        <path d="M9 8h6M9 12h6M9 16h4"/>
       </svg>
     ),
   };

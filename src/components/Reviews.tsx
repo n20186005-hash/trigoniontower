@@ -29,7 +29,7 @@ export default function Reviews() {
     text: string;
   }>;
 
-  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/7kurr3qMaSgWhNA59';
+  const mapsLink = messages?.hero?.mapsLink || 'https://maps.app.goo.gl/2VPEts66p8h1J8YS7';
 
   return (
     <section id="reviews" className="section-padding">

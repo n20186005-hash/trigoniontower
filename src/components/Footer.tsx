@@ -1,4 +1,5 @@
 import { useTranslations, useLocale } from 'next-intl';
+import { siteConfig } from '@/config';
 
 export default function Footer() {
   const t = useTranslations('footer');
@@ -63,6 +64,11 @@ export default function Footer() {
         >
           <p>{t('rights')}</p>
           <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('disclaimer')}</p>
+          <p className="text-xs max-w-3xl mx-auto leading-relaxed">{t('editorialNote')}</p>
+          <p className="text-xs">
+            {t('contentUpdatedPrefix')}{' '}
+            <time dateTime={siteConfig.contentUpdated}>{siteConfig.contentUpdated}</time>
+          </p>
         </div>
       </div>
     </footer>

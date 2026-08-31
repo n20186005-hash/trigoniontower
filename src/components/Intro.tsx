@@ -6,9 +6,11 @@ export default function Intro() {
   const messages = useMessages() as any;
   const items: string[] = messages?.intro?.visitGuide?.items || [];
   const alsoKnownAsItems: string[] = messages?.intro?.alsoKnownAs?.items || [];
+  const breadcrumb: string[] = messages?.intro?.breadcrumb || [];
+  const nearbyText: string = messages?.intro?.nearby || '';
 
   return (
-    <section className="section-padding">
+    <section id="about" className="section-padding">
       <div className="max-w-4xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-6"
@@ -17,6 +19,36 @@ export default function Intro() {
           {t('title')}
         </h2>
         <div className="w-12 h-0.5 mb-8" style={{ background: 'var(--accent)' }} />
+
+        {/* Geo breadcrumb: entity → city → region → country */}
+        {breadcrumb.length > 0 && (
+          <nav
+            aria-label="Breadcrumb"
+            className="flex flex-wrap items-center gap-2 text-sm mb-8"
+            style={{ color: 'var(--text-muted)' }}
+          >
+            {breadcrumb.map((item, i) => (
+              <span key={i} className="flex items-center gap-2">
+                {i > 0 && (
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <polyline points="9 18 15 12 9 6" />
+                  </svg>
+                )}
+                <span className={i === 0 ? 'font-medium' : ''} style={i === 0 ? { color: 'var(--text-primary)' } : {}}>
+                  {item}
+                </span>
+              </span>
+            ))}
+          </nav>
+        )}
+
+        {/* Entity equivalence statement (first paragraph) */}
+        <p
+          className="text-lg leading-relaxed mb-6"
+          style={{ color: 'var(--text-secondary)' }}
+        >
+          {t('welcome')}
+        </p>
 
         <p
           className="text-lg leading-relaxed mb-12"
@@ -66,6 +98,21 @@ export default function Intro() {
             </ul>
           </div>
         </div>
+
+        {/* Nearby landmarks semantic cluster */}
+        {nearbyText && (
+          <div
+            className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]"
+            style={{ background: 'var(--bg-tertiary)' }}
+          >
+            <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+              {t('nearbyTitle')}
+            </h2>
+            <p className="text-base leading-relaxed" style={{ color: 'var(--text-secondary)' }}>
+              {nearbyText}
+            </p>
+          </div>
+        )}
 
         <div className="mt-12 p-6 sm:p-8 rounded-xl border border-[var(--accent)]" style={{ background: 'var(--bg-tertiary)' }}>
           <h2 className="font-display text-xl font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>

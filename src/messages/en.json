@@ -1,27 +1,55 @@
 {
   "meta": {
-    "title": "Trigonion Tower – Thessaloniki, Greece",
-    "description": "Complete travel guide to Trigonion Tower in Thessaloniki, Greece. Learn about this historical monument, including location, views, access, and visitor information."
+    "title": "Trigonion Tower (Thessaloniki) - Visitor Guide & Location",
+    "description": "Discover Trigonion Tower, the iconic landmark in Thessaloniki, Central Macedonia, Greece. View location map, opening details, nearby Vlatadon Monastery, and travel tips."
   },
   "header": {
     "home": "Home",
     "gallery": "Gallery",
     "reviews": "Reviews",
+    "faq": "FAQ",
     "map": "Map",
     "backToHome": "Back to Home"
   },
   "hero": {
-    "title": "Trigonion Tower",
+    "title": "Trigonion Tower (Thessaloniki)",
     "subtitle": "Historical Monument · Greece",
     "rating": "4.7",
-    "reviewCount": "7,589 reviews",
+    "reviewCount": "7,810 reviews",
     "type": "Byzantine Tower",
     "openMaps": "View on Google Maps",
     "mapsLink": "https://maps.app.goo.gl/2VPEts66p8h1J8YS7"
   },
+  "toc": {
+    "title": "On this page",
+    "items": [
+      { "id": "about", "label": "About the monument" },
+      { "id": "facts", "label": "Quick facts" },
+      { "id": "hours", "label": "Opening hours" },
+      { "id": "tickets", "label": "Admission" },
+      { "id": "transport", "label": "Location & transport" },
+      { "id": "knowledge", "label": "History & significance" },
+      { "id": "history", "label": "Historical timeline" },
+      { "id": "legends", "label": "Legends & stories" },
+      { "id": "route", "label": "Suggested route" },
+      { "id": "facilities", "label": "Facilities & services" },
+      { "id": "etiquette", "label": "Visitor etiquette" },
+      { "id": "photo-spots", "label": "Photo spots" },
+      { "id": "gallery", "label": "Gallery" },
+      { "id": "reviews", "label": "Reviews" },
+      { "id": "faq", "label": "FAQ" },
+      { "id": "sources", "label": "References" },
+      { "id": "map", "label": "Map" },
+      { "id": "heritage", "label": "UNESCO World Heritage" }
+    ]
+  },
   "intro": {
-    "title": "Discover Trigonion Tower",
+    "title": "About Trigonion Tower (Thessaloniki)",
     "description": "Trigonion Tower (Πύργος Τριγωνίου Αλύσεως) is a significant Byzantine fortification monument in Thessaloniki. Located in the Upper Town (Ano Poli) near Vlatadon Monastery, it was part of the city's fortifications. It offers panoramic views of the city and the Thermaic Gulf.",
+    "welcome": "Welcome to Trigonion Tower, widely recognized as the central Trigonion Tower. Located in the heart of Thessaloniki, Central Macedonia, Greece, this destination serves as a primary hub for travelers visiting the region.",
+    "breadcrumb": ["Trigonion Tower", "Thessaloniki", "Central Macedonia", "Greece"],
+    "nearbyTitle": "Landmarks & Attractions Around Trigonion Tower",
+    "nearby": "When visiting Trigonion Tower, visitors can easily explore surrounding historical landmarks and points of interest, including Vlatadon Monastery and Heptapyrgion Fortress.",
     "visitGuide": {
       "title": "Visit Tips",
       "items": [
@@ -42,27 +70,27 @@
     }
   },
   "knowledge": {
-    "title": "About Trigonion Tower",
+    "title": "History & Significance of Trigonion Tower",
     "sections": [
       {
         "id": "history",
         "title": "History & Construction",
-        "content": "Trigonion Tower was built during the Venetian period (around 15th century) as part of Thessaloniki's fortifications. Its name comes from the triangular shape of its base."
+        "content": "The tower stands at the northern end of the eastern wall of the acropolis (Upper Town), close to the Vlatadon Monastery, where the northern and eastern sections of the circuit meet. In its present form it is generally regarded as an artillery tower raised in the late 15th century under Ottoman rule, after the conquest of 1430, to strengthen the sector at which most attacks had been concentrated; an earlier, late Byzantine origin has also been proposed, and the dating remains under discussion."
       },
       {
         "id": "architecture",
         "title": "Architecture",
-        "content": "The tower is a typical example of fortification architecture of the period. It is well preserved and accessible to visitors."
+        "content": "Unlike the square and polygonal towers found elsewhere along the circuit, the Trigonion Tower has an unusual triangular ground plan, which also gives the monument its name. It is built as a heavy artillery tower in the masonry typical of the city's fortifications — rubble stone bedded in mortar, with courses of brick and reused material from earlier buildings — and was designed to command the slopes below the acropolis. Locals call it the balcony of Thessaloniki: on a clear day the view reaches as far as Mount Olympus, some 150 km away."
       },
       {
         "id": "significance",
         "title": "Cultural Significance",
-        "content": "The tower is an important part of Thessaloniki's Byzantine and Venetian heritage. It is located near Vlatadon Monastery and the Upper Town."
+        "content": "The tower forms part of the fortification system of Thessaloniki, whose walls survive over a length of some 4 km and rank among the best-preserved city walls of the Byzantine world. Together with the nearby Vlatadon Monastery and the Heptapyrgion fortress, it documents the defensive and religious landscape of the Byzantine acropolis."
       },
       {
         "id": "protection",
         "title": "Protection & Conservation",
-        "content": "The tower is protected by the Ephorate of Antiquities of Thessaloniki City and is registered in the National Archaeological Cadastre."
+        "content": "The monument is protected under Greek legislation on antiquities (Law 3028/2002) and is managed by the Ephorate of Antiquities of Thessaloniki City under the Hellenic Ministry of Culture. It is registered in the National Archaeological Cadastre, and the city walls of which it forms part are included in the UNESCO World Heritage inscription of 1988."
       }
     ]
   },
@@ -87,14 +115,16 @@
   },
   "hours": {
     "title": "Visiting Hours",
-    "park": "Access",
-    "parkTime": "Open daily, free admission",
+    "park": "Viewing terrace",
+    "parkTime": "Open around the clock, free of charge",
+    "tower": "Tower interior",
+    "towerTime": "Daily 09:00–15:00, closed on Mondays",
     "bestTime": "Best Time to Visit",
     "bestTimeSpring": "Spring: Pleasant weather, clear atmosphere",
     "bestTimeSummer": "Summer: Cooler at morning and sunset, avoid midday heat",
     "bestTimeAutumn": "Autumn: Mild weather, ideal for walking",
     "bestTimeWinter": "Winter: Fewer tourists, clear views",
-    "tip": "No ticket required. It is recommended to visit during the day for the best views."
+    "tip": "No ticket is required. The viewing terrace is freely accessible at any time, while the tower interior keeps the limited hours shown above and closes on Mondays. These hours follow the information published by the Thessaloniki Tourism Organisation and may change seasonally — confirm with the Ephorate of Antiquities of Thessaloniki City before travelling. Daylight visits are recommended, as the area has limited lighting after dark."
   },
   "tickets": {
     "title": "Admission Information",
@@ -106,7 +136,7 @@
     "guidedPrice": "Available through local tourism operators"
   },
   "transport": {
-    "title": "How to Get Here",
+    "title": "Location & How to Visit Trigonion Tower in Thessaloniki",
     "fromCenter": "From Center (White Tower)",
     "fromCenterDesc": "Distance of about 3km. You can reach by bus or private car.",
     "fromStation": "From Bus Station",
@@ -122,13 +152,16 @@
   },
   "route": {
     "title": "Recommended Route",
-    "overview": "Walk through the Upper Town and enjoy the view.",
+    "overview": "A half-day walk linking Trigonion Tower with the other monuments of the Upper Town — several of them UNESCO-listed in their own right.",
     "steps": [
-      "Start from the city center",
-      "Climb up to the Upper Town (Ano Poli)",
-      "Reach Trigonion Tower",
-      "Enjoy the panoramic view of the city",
-      "Visit Vlatadon Monastery and the walls"
+      "Start from the city centre or the waterfront",
+      "Climb through the streets of the Upper Town (Ano Poli) towards the acropolis walls",
+      "Reach Trigonion Tower and its viewing terrace — the balcony of Thessaloniki",
+      "Follow the adjoining stretch of city walls towards the Heptapyrgion fortress",
+      "Visit the Vlatadon Monastery, a UNESCO-listed monument of the 14th century",
+      "Continue to the Byzantine Bath of the Upper Town, also UNESCO-listed",
+      "Descend through the traditional Macedonian streets of Ano Poli",
+      "Return to the city centre along the waterfront"
     ]
   },
   "photoSpots": {
@@ -138,25 +171,25 @@
         "title": "Main Viewpoint",
         "description": "The place where you can take the most classic photos of the tower and the city.",
         "location": "Main center",
-        "image": "/gallery/trigonion-tower (1).jpg"
+        "image": "/gallery/trigonion-tower-01.jpg"
       },
       {
         "title": "Sea View Point",
         "description": "Ideal location for photos of the city and the Thermaic Gulf.",
         "location": "Outside the tower",
-        "image": "/gallery/trigonion-tower (2).jpg"
+        "image": "/gallery/trigonion-tower-02.jpg"
       },
       {
         "title": "The Walls",
         "description": "Impressive Byzantine architecture near the tower.",
         "location": "Near Trigonion Tower",
-        "image": "/gallery/trigonion-tower (4).jpg"
+        "image": "/gallery/trigonion-tower-03.jpg"
       },
       {
         "title": "Panoramic View",
         "description": "Thessaloniki city from above.",
         "location": "Tower pathway",
-        "image": "/gallery/trigonion-tower (5).jpg"
+        "image": "/gallery/trigonion-tower-04.jpg"
       }
     ]
   },
@@ -232,7 +265,253 @@
   "mapSection": {
     "title": "Map Location",
     "subtitle": "Agios Pavlos 546 34, Greece",
-    "openMaps": "View on Google Maps"
+    "openMaps": "View on Google Maps",
+    "officialPortalIntro": "For official updates and regional tourism information, visit"
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Quick answers about visiting Trigonion Tower in Thessaloniki.",
+    "items": [
+      {
+        "q": "Where is Trigonion Tower located?",
+        "a": "Trigonion Tower is located in Agios Pavlos, Thessaloniki, Central Macedonia, Greece."
+      },
+      {
+        "q": "Is Trigonion Tower free to visit?",
+        "a": "Yes, Trigonion Tower is a public monument and is free to visit year-round."
+      },
+      {
+        "q": "What can you see from Trigonion Tower?",
+        "a": "From the tower you can enjoy panoramic views of Thessaloniki, the Thermaic Gulf and the Upper Town (Ano Poli)."
+      }
+    ]
+  },
+  "facilities": {
+    "title": "Visitor Facilities & Services",
+    "subtitle": "The types of services available in the monument area and the Upper Town (Ano Poli).",
+    "note": "This is a non-commercial educational site. We describe service types only and do not recommend, rank or link to any individual business.",
+    "items": [
+      {
+        "id": "restrooms",
+        "type": "Restrooms (WC)",
+        "desc": "No public toilets operate inside the monument itself. Restrooms of the kind found in cafés, restaurants and municipal facilities are concentrated in the squares of the Upper Town and in the city centre.",
+        "tip": "Tip: plan ahead and use facilities in the city centre or at a café before the climb; municipal facilities keep seasonal opening hours."
+      },
+      {
+        "id": "parking",
+        "type": "Parking",
+        "desc": "The Upper Town has narrow, steep streets with limited on-street parking. Free public street parking of limited capacity is usually available along the approach roads and near the monument area, while paid municipal car parks and garages operate in the city centre.",
+        "tip": "Tip: spaces fill quickly at weekends and on public holidays — consider public transport, a taxi, or walking the last stretch."
+      },
+      {
+        "id": "dining",
+        "type": "Food & Drink",
+        "desc": "No refreshment stand operates at the monument. Within walking distance in the Upper Town you will find the usual Greek food-service types: traditional tavernas, small-plates venues (ouzeri / mezedopoleio), cafés, bakeries and street-food kiosks. A wider selection is available in the city centre and along the waterfront.",
+        "tip": "Tip: carry water with you — the walk up is steep and shade is limited around midday."
+      },
+      {
+        "id": "lodging",
+        "type": "Accommodation",
+        "desc": "Accommodation near the site is mostly small in scale: guesthouses and boutique hotels in restored Upper Town houses, rooms to let, hostels and short-stay apartments. Larger business and conference hotels are concentrated in the city centre and along the waterfront.",
+        "tip": "Tip: staying in the Upper Town suits travellers who want a quiet historic neighbourhood; the centre offers better transport connections."
+      },
+      {
+        "id": "shopping",
+        "type": "Shops & Groceries",
+        "desc": "Daily needs are covered by small grocery shops, mini-markets, bakeries and neighbourhood kiosks (periptero) in the Upper Town. Full-size supermarkets, pharmacies and retail chains are found in the city centre and along the main avenues.",
+        "tip": "Tip: small shops often close in the afternoon and on Sundays — buy water and snacks in advance."
+      },
+      {
+        "id": "fuel",
+        "type": "Fuel & EV Charging",
+        "desc": "Neither fuel stations nor electric-vehicle charging points are located inside the historic Upper Town; they are found on the city's main avenues, on the ring road, and at public car parks and shopping centres. Charging networks here generally use the standard European connectors (Type 2 / CCS).",
+        "tip": "Tip: if you drive an electric car, charge before entering the Upper Town and confirm connector compatibility with your rental provider."
+      },
+      {
+        "id": "comfort",
+        "type": "Shade, Water & Seating",
+        "desc": "The site itself is largely open and exposed, with little natural shade and few benches along the approach paths. Shaded rest areas, drinking fountains and seating are typically found in the Upper Town squares and at viewpoints.",
+        "tip": "Tip: in summer, visit early in the morning or near sunset, and bring a hat, water and sun protection."
+      },
+      {
+        "id": "accessibility",
+        "type": "Accessibility",
+        "desc": "Reaching the tower involves steep uphill streets and uneven stone paving; the route is not step-free and is generally not suitable for wheelchairs or visitors with limited mobility. Vehicles can stop on the approach roads, but a walk over sloping ground remains necessary.",
+        "tip": "Tip: visitors with limited mobility may prefer the panoramic views from the Upper Town squares and other accessible viewpoints."
+      }
+    ]
+  },
+  "history": {
+    "title": "Historical Timeline of Trigonion Tower",
+    "subtitle": "From the Byzantine fortification system of Thessaloniki to a protected monument today.",
+    "events": [
+      {
+        "era": "3rd–4th c.",
+        "title": "The fortifications of Thessaloniki",
+        "text": "Thessaloniki was already fortified in late Roman times, and the circuit of walls that survives today largely follows the late Roman to early Byzantine enceinte, repaired repeatedly over the centuries. The city grew into one of the most important cities of the Byzantine Empire — often described as second only to Constantinople — under the patronage of Saint Demetrius."
+      },
+      {
+        "era": "7th–12th c.",
+        "title": "Sieges and repairs",
+        "text": "The walls were tested again and again: by Slavic and Arab attacks, by the wars with Bulgaria, and by the Norman capture of the city in 1185. Each phase left its marks of repair and rebuilding in the masonry, which is why the circuit shows several distinct building periods."
+      },
+      {
+        "era": "13th–14th c.",
+        "title": "The acropolis circuit",
+        "text": "The Upper Town was enclosed by its own line of fortification, the acropolis circuit, which formed the strongest sector of the city's defences. The tower's later position — at the northern end of the eastern wall, where the northern and eastern sections meet — lies at one of the most exposed points of that circuit."
+      },
+      {
+        "era": "1430",
+        "title": "Ottoman conquest",
+        "text": "Thessaloniki was taken by the Ottoman army in 1430, after a siege recorded by the eyewitness Ioannis Anagnostis. Control of the city passed from Venice, which had held it since 1423, to the Ottoman authorities."
+      },
+      {
+        "era": "late 15th c.",
+        "title": "The tower is raised",
+        "text": "In its present form the tower is an artillery fortification raised in the late 15th century by the Ottoman authorities, to reinforce the sensitive point at which most attacks on the city had been concentrated. Some researchers argue for an earlier, late Byzantine origin, and the dating continues to be discussed."
+      },
+      {
+        "era": "1430–1912",
+        "title": "Ottoman period",
+        "text": "After the Ottoman conquest of 1430 the walls continued to serve as the city's defensive enceinte. The acropolis area kept its residential character; the traditional Macedonian houses that give the Upper Town its present appearance date mostly from the 18th and 19th centuries."
+      },
+      {
+        "era": "from 1912",
+        "title": "Modern era",
+        "text": "Thessaloniki was incorporated into the Greek state in 1912. The walls gradually lost their military function and were placed under state protection as monuments. The Upper Town survived the great fire of 1917 largely intact and retains its traditional urban fabric."
+      },
+      {
+        "era": "1988",
+        "title": "UNESCO World Heritage",
+        "text": "UNESCO inscribed Paleochristian and Byzantine Monuments of Thessaloniki on the World Heritage List under criteria (i), (ii) and (iv). The property covers 5.327 hectares and includes the city walls, some 4 km of which survive with minimal losses; the tower forms part of that component, as does the nearby Vlatadon Monastery."
+      },
+      {
+        "era": "Today",
+        "title": "Protection and management",
+        "text": "The monument is protected and managed by the Ephorate of Antiquities of Thessaloniki City under the Hellenic Ministry of Culture, and is registered in the National Archaeological Cadastre. Consolidation works have been carried out on the tower, which is open to the public; the viewing terrace is freely accessible around the clock, while the interior keeps limited hours."
+      }
+    ],
+    "disclaimer": "Dates and attributions concerning medieval fortifications are revised as research progresses. Where scholarly opinion differs, this page sets out the range of views rather than a single definitive date."
+  },
+  "legends": {
+    "title": "Legends, Traditions & Stories",
+    "subtitle": "Folk traditions, religious beliefs and local customs connected with the tower.",
+    "items": [
+      {
+        "title": "The chain across the harbour",
+        "kind": "Folk tradition",
+        "text": "The tower's second name, Alyseos (of the Chain), is linked to a local tradition that a great chain was stretched from this point towards the harbour to prevent hostile ships from entering the port. The chain gave the tower its name, and the story survives in local tradition and in the monument's own designation."
+      },
+      {
+        "title": "Why it is called Trigonion",
+        "kind": "Documented",
+        "text": "Trigonion means triangle in Greek, and the tower's triangular plan distinguishes it from the square and polygonal towers found elsewhere along the circuit. How the name arose is explained in more than one way: it has been connected with the account of Ioannis Anagnostis, eyewitness of the 1430 siege, who refers to the Trigonio where the attackers set their ladders; and with the triangular projection of the northern wall in which the gate of Anna Palaiologina opened. The triangular plan itself is documented; the origin of the name is still discussed."
+      },
+      {
+        "title": "Fire signals along the walls",
+        "kind": "Folk tradition",
+        "text": "Local tradition recounts that beacon fires were lit along the acropolis walls to pass warning signals between the fortresses around the Thermaic Gulf. Beacon signalling is attested elsewhere in the medieval Mediterranean, but its use at this particular tower belongs to tradition rather than to documented evidence."
+      },
+      {
+        "title": "The protector of the city",
+        "kind": "Religious tradition",
+        "text": "Thessaloniki has venerated Saint Demetrius as its patron and protector since early Christian times, and popular tradition credits him with the city's survival through sieges and fires. The cult of Saint Demetrius is historically documented; belief in his protection of the walls belongs to religious tradition."
+      },
+      {
+        "title": "The sunset gathering",
+        "kind": "Local custom",
+        "text": "In recent decades the tower and the adjoining stretch of wall have become one of the best-known places in the city from which to watch the sunset over the Thermaic Gulf — a habit shared by residents and students rather than an ancient legend."
+      }
+    ],
+    "disclaimer": "Entries labelled Folk tradition, Religious tradition or Local custom reflect oral tradition and popular belief. They are presented separately from documented historical and archaeological evidence and should not be read as established fact."
+  },
+  "etiquette": {
+    "title": "Visitor Etiquette & Protection of the Monument",
+    "subtitle": "Basic rules to follow when visiting a protected archaeological site.",
+    "doTitle": "Recommended",
+    "dontTitle": "Please avoid",
+    "do": [
+      "Keep to the existing paths and do not walk on the masonry of the walls.",
+      "Take your rubbish with you — few bins are provided in the monument area.",
+      "Personal, non-commercial photography is generally permitted; tripods and professional equipment may require authorisation.",
+      "Respect the residents of the Upper Town: it is a living neighbourhood, not an open-air museum.",
+      "Keep dogs on a lead and under control.",
+      "Supervise children — the terrain includes steep slopes and uneven ground."
+    ],
+    "dont": [
+      "Do not climb on the monument, the walls or the parapets.",
+      "Do not remove stones, bricks, plants or soil from the site.",
+      "Do not light fires, barbecue or camp within the monument area.",
+      "Do not leave graffiti, carve inscriptions or attach anything to the masonry.",
+      "Do not fly a drone over an archaeological site without the authorisation required by Greek law.",
+      "Do not use metal detectors or dig into the ground."
+    ],
+    "disclaimer": "The above is a general summary of the obligations arising from Greek legislation on the protection of antiquities (Law 3028/2002 on the Protection of Antiquities and Cultural Heritage in General). For the current, legally binding text, consult the Hellenic Ministry of Culture or the Ephorate of Antiquities of Thessaloniki City."
+  },
+  "sources": {
+    "title": "References & Official Sources",
+    "subtitle": "The official and heritage-institution sources on which this guide is based.",
+    "items": [
+      {
+        "name": "Hellenic Ministry of Culture",
+        "url": "https://www.culture.gov.gr/",
+        "desc": "The competent authority for antiquities and monuments in Greece; issues regulations, permits and conservation policy."
+      },
+      {
+        "name": "Ephorate of Antiquities of Thessaloniki City",
+        "url": "https://www.efapoth.gr/",
+        "desc": "The local service of the Ministry of Culture directly responsible for the protection, study and management of the monument and the city walls."
+      },
+      {
+        "name": "National Archaeological Cadastre",
+        "url": "https://www.arxaiologikoktimatologio.gov.gr/",
+        "desc": "Official national GIS register of archaeological sites and of monument protection boundaries."
+      },
+      {
+        "name": "UNESCO World Heritage Centre",
+        "url": "https://whc.unesco.org/en/list/456/",
+        "desc": "Official entry for Paleochristian and Byzantine Monuments of Thessaloniki, inscribed on the World Heritage List in 1988."
+      },
+      {
+        "name": "Greek National Tourism Organisation (GNTO)",
+        "url": "https://www.visitgreece.gr/",
+        "desc": "The official national tourism authority of the Hellenic Republic."
+      },
+      {
+        "name": "Region of Central Macedonia",
+        "url": "https://visit-centralmacedonia.gr/",
+        "desc": "Official regional tourism portal of Central Macedonia."
+      },
+      {
+        "name": "Thessaloniki Tourism Organisation",
+        "url": "https://thessaloniki.travel/",
+        "desc": "Official city tourism organisation of the Municipality of Thessaloniki."
+      }
+    ],
+    "disclaimer": "This site is an independent, non-commercial educational project and is not affiliated with any of the organisations listed above. Content is compiled from publicly available official sources; please verify access and opening arrangements with the competent authority before travelling."
+  },
+  "heritage": {
+    "title": "The UNESCO World Heritage Property",
+    "subtitle": "The 15 component monuments inscribed on the World Heritage List in 1988.",
+    "belongsTo": "Trigonion Tower forms part of component No. 1 — the city walls, some 4 km of which survive, including the Heptapyrgion fortress.",
+    "items": [
+      { "name": "City walls (c. 4 km), including the Heptapyrgion fortress" },
+      { "name": "Rotunda (Church of Agios Georgios)" },
+      { "name": "Church of the Acheiropoietos" },
+      { "name": "Church of Agios Demetrios" },
+      { "name": "Church of Hagia Sophia" },
+      { "name": "Church of Panagia Chalkeon" },
+      { "name": "Church of Agios Nikolaos Orphanos" },
+      { "name": "Church of Agios Panteleimon" },
+      { "name": "Church of the Holy Apostles" },
+      { "name": "Church of the Transfiguration of the Saviour" },
+      { "name": "Church of Agia Aikaterini" },
+      { "name": "Church of Profitis Ilias" },
+      { "name": "Vlatadon Monastery" },
+      { "name": "Byzantine Bath of the Upper Town" },
+      { "name": "Church of Hosios David (Latomou Monastery)" }
+    ],
+    "disclaimer": "Source: UNESCO World Heritage Centre, property No. 456 (Paleochristian and Byzantine Monuments of Thessaloniki), inscribed in 1988 under criteria (i), (ii) and (iv); property area 5.327 hectares."
   },
   "footer": {
     "brandName": "Trigonion Tower",
@@ -249,7 +528,10 @@
       "efapoth": "Ephorate of Antiquities of Thessaloniki City",
       "archaeological": "National Archaeological Cadastre"
     },
-    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies."
+    "disclaimer": "This website is an independent third-party tourism information project. We are not affiliated with the local government or any other official agencies.",
+    "contentUpdatedPrefix": "Content last updated:",
+    "editorialNote": "Content is compiled and maintained by an independent editorial team from the official sources listed on this page. The project is non-commercial: we describe types of service only and never recommend, rank or link to individual businesses.",
+    "organizationDescription": "Independent, non-commercial editorial project publishing visitor guides to cultural heritage sites."
   },
   "officialManagement": {
     "title": "About Trigonion Tower",
