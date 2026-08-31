@@ -181,6 +181,18 @@ export default async function LocaleLayout({
   return (
     <html lang={locale === 'zh' ? 'zh-CN' : locale === 'el' ? 'el-GR' : 'en'} suppressHydrationWarning>
       <head>
+        {/* Google Analytics 4 */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-HXM22WWPKP" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-HXM22WWPKP');
+            `,
+          }}
+        />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXX" crossOrigin="anonymous" />
         <meta name="google-adsense-account" content="ca-pub-XXXXXXXXXX" />
         {/* PWA meta tags (theme-color & manifest are rendered by generateMetadata) */}
