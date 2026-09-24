@@ -1,7 +1,6 @@
 'use client';
 
 import { useTranslations, useMessages } from 'next-intl';
-import type { ReactNode } from 'react';
 
 interface RouteBlock {
   title: string;

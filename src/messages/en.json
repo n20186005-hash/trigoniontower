@@ -315,15 +315,51 @@
     "items": [
       {
         "q": "Where is Trigonion Tower located?",
-        "a": "Trigonion Tower is located in Agios Pavlos, Thessaloniki, Central Macedonia, Greece."
+        "a": "Trigonion Tower stands in Agios Pavlos, Thessaloniki, in Central Macedonia, Greece. It sits in the Upper Town (Ano Poli) on the eastern stretch of the Byzantine acropolis walls."
+      },
+      {
+        "q": "How far is Trigonion Tower from the White Tower, and how do I get there?",
+        "a": "The two landmarks are about 3 km apart, linked by an uphill walk through the historic centre to the Upper Town. From the White Tower (waterfront) you can walk 30–40 minutes, take a city bus climbing toward Ano Poli, or use a taxi or ride-hailing app. The final approach to the tower is on foot up the stone lanes."
+      },
+      {
+        "q": "What are the exact coordinates and Plus Code of Trigonion Tower?",
+        "a": "The tower is at roughly 40.6407° N, 22.9600° E. Its Plus Code is JXR5+7X, Agios Pavlos, Thessaloniki — you can paste either into a maps app to navigate to the Upper Town viewpoint."
+      },
+      {
+        "q": "What are the opening hours of Trigonion Tower?",
+        "a": "The viewing terrace and open ramparts are accessible around the clock. The tower interior keeps limited hours (about 09:00–15:00) and is typically closed on Mondays. Hours can change for maintenance or events, so reconfirm with the Ephorate of Antiquities of Thessaloniki City before travelling."
       },
       {
         "q": "Is Trigonion Tower free to visit?",
-        "a": "Yes, Trigonion Tower is a public monument and is free to visit year-round."
+        "a": "Yes. Trigonion Tower is a public monument and is free to visit year-round; there is no ticket office at the site."
+      },
+      {
+        "q": "Where can I park near Trigonion Tower?",
+        "a": "The Upper Town has narrow, steep streets with limited on-street parking; free roadside spaces of limited capacity are usually found along the approach roads. Paid municipal car parks and garages operate in the city centre. On weekends and holidays, spaces fill quickly — public transport, a taxi, or walking the last stretch is often easier."
+      },
+      {
+        "q": "What is the history of Trigonion Tower, and why is it called the Chain Tower?",
+        "a": "Trigonion Tower is a Byzantine tower of the Thessaloniki acropolis walls, forming part of the city's eastern fortification system above the Upper Town. It is also known as the Tower of the Chain (Πύργος της Αλύσεως), a name tied to its defensive role in the walled enceinte."
+      },
+      {
+        "q": "What is Trigonion Tower called in other languages?",
+        "a": "In Greek it is Πύργος Τριγωνίου (also Πύργος της Αλύσεως, 'Tower of the Chain'). It also appears as Trigonion-Turm / Trigonenturm (German), Trigonion Kulesi (Turkish) and Torre della Catena (Italian, 'Tower of the Chain')."
+      },
+      {
+        "q": "How do I get from Thessaloniki Airport to Trigonion Tower?",
+        "a": "Thessaloniki Airport 'Makedonia' (SKG) is about 18 km southeast. Take a taxi, ride-hailing app or rental car into the city, then continue to the Upper Town by bus, taxi or on foot. There is no direct train from the airport to the monument."
       },
       {
         "q": "What can you see from Trigonion Tower?",
-        "a": "From the tower you can enjoy panoramic views of Thessaloniki, the Thermaic Gulf and the Upper Town (Ano Poli)."
+        "a": "From the tower you get panoramic views over Thessaloniki, the Thermaic Gulf and the Upper Town (Ano Poli). It is a celebrated sunset spot, often called the 'balcony of Thessaloniki'."
+      },
+      {
+        "q": "What is the best time of day or year to visit?",
+        "a": "Sunset is the classic time for the view. Spring and autumn are mild and pleasant; in summer visit early morning or near sunset to avoid the strong midday sun, and bring water and a hat. Check the live forecast on this page before you go."
+      },
+      {
+        "q": "Who manages the monument and what is the official contact?",
+        "a": "The monument falls under the Greek archaeological service — the Ephorate of Antiquities of Thessaloniki City — reachable on +302313310400. For official tourism information, use the national portal visitgreece.gr; this site is an independent, non-commercial visitor guide and is not the official operator."
       }
     ]
   },
@@ -574,6 +610,8 @@
     "terms": "Terms of Service",
     "cookies": "Cookie Settings",
     "officialResourcesTitle": "Official Resources & Information",
+    "contactTitle": "Contact & Location",
+    "viewMap": "View on map",
     "officialLinks": {
       "gnto": "Greek National Tourism Organization (GNTO)",
       "centralmacedonia": "Region of Central Macedonia",

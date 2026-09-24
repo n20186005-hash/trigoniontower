@@ -44,6 +44,32 @@ export default function Footer() {
                 {officialLinks.archaeological || 'National Archaeological Cadastre'}
               </a>
             </div>
+            <div className="mt-6">
+              <h3 className="font-display text-lg font-semibold mb-3" style={{ color: 'var(--text-primary)' }}>
+                {t('contactTitle')}
+              </h3>
+              <div className="flex flex-col gap-1.5 text-sm">
+                <a
+                  href={`tel:${siteConfig.phone}`}
+                  className="hover:underline"
+                  style={{ color: 'var(--text-secondary)' }}
+                >
+                  {siteConfig.phone}
+                </a>
+                <span style={{ color: 'var(--text-muted)' }}>
+                  {siteConfig.streetAddress}, {siteConfig.postalCode} {siteConfig.city}, {siteConfig.country}
+                </span>
+                <a
+                  href={siteConfig.mapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline"
+                  style={{ color: 'var(--accent)' }}
+                >
+                  {t('viewMap')}
+                </a>
+              </div>
+            </div>
           </div>
           <div className="flex flex-wrap gap-4 text-sm mt-4 sm:mt-0">
             <a href={`${prefix}/privacy-policy`} style={{ color: 'var(--text-secondary)' }} className="hover:underline">

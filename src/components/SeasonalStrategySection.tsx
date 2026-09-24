@@ -15,7 +15,7 @@ export default function SeasonalStrategySection() {
   const rows = (messages?.seasonal?.rows || []) as SeasonRow[];
 
   return (
-    <section id="seasonal" className="section-padding" style={{ background: 'var(--bg-secondary)' }}>
+    <section id="seasonal" className="section-padding">
       <div className="max-w-5xl mx-auto">
         <h2
           className="font-display text-3xl sm:text-4xl font-semibold mb-2"

@@ -11,11 +11,11 @@ export const siteConfig = {
   url: 'https://trigoniontower.com',
 
   // Publisher / editorial identity (E-E-A-T)
-  siteName: 'Trigonion Tower Visitor Guide',
+  siteName: 'Trigonion Tower Thessaloniki — Visitor Guide',
   organizationName: 'Trigonion Tower Independent Tourism Research Project',
   // ISO date of the last substantive content update — rendered on the page and
   // emitted as dateModified in the structured data. Bump on every edit.
-  contentUpdated: '2026-08-31',
+  contentUpdated: '2026-09-24',
 
   // Attraction entity (single-attraction SEO binding)
   attractionFullName: 'Trigonion Tower',
@@ -54,7 +54,7 @@ export const siteConfig = {
   // Contact, rating
   phone: '+302313310400',
   rating: '4.7',
-  reviewCount: '7,810',
+  reviewCount: '7,862',
 
   /**
    * Opening hours.

@@ -3,7 +3,7 @@ import { siteConfig } from '@/config';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: `${siteConfig.attractionFullName} (${siteConfig.city}) – Visitor Guide & Location`,
+    name: siteConfig.siteName,
     short_name: siteConfig.attractionShortName,
     description: `Discover ${siteConfig.attractionFullName}, the iconic landmark in ${siteConfig.city}, ${siteConfig.stateProvince}, ${siteConfig.country}. View location map, opening details and travel tips.`,
     start_url: '/el',
