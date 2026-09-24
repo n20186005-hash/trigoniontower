@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Trigonion Tower (Thessaloniki) - Visitor Guide & Location",
-    "description": "Discover Trigonion Tower, the iconic landmark in Thessaloniki, Central Macedonia, Greece. View location map, opening details, nearby Vlatadon Monastery, and travel tips."
+    "title": "Trigonion Tower Thessaloniki — Visitor Guide",
+    "description": "Discover Trigonion Tower, the iconic Byzantine landmark in Thessaloniki, Central Macedonia, Greece. View live weather, transport guides, suggested routes, seasonal tips, facilities and travel planning."
   },
   "header": {
     "home": "Home",
@@ -28,10 +28,13 @@
       { "id": "hours", "label": "Opening hours" },
       { "id": "tickets", "label": "Admission" },
       { "id": "transport", "label": "Location & transport" },
+      { "id": "weather", "label": "Weather & forecast" },
       { "id": "knowledge", "label": "History & significance" },
       { "id": "history", "label": "Historical timeline" },
       { "id": "legends", "label": "Legends & stories" },
       { "id": "route", "label": "Suggested route" },
+      { "id": "itineraries", "label": "Routes & itineraries" },
+      { "id": "seasonal", "label": "Best time to visit" },
       { "id": "facilities", "label": "Facilities & services" },
       { "id": "etiquette", "label": "Visitor etiquette" },
       { "id": "photo-spots", "label": "Photo spots" },
@@ -136,19 +139,57 @@
     "guidedPrice": "Available through local tourism operators"
   },
   "transport": {
-    "title": "Location & How to Visit Trigonion Tower in Thessaloniki",
-    "fromCenter": "From Center (White Tower)",
-    "fromCenterDesc": "Distance of about 3km. You can reach by bus or private car.",
-    "fromStation": "From Bus Station",
-    "fromStationDesc": "Buses from the center to the Upper Town.",
-    "fromAirport": "From Airport",
-    "fromAirportDesc": "Distance of about 18km. It is recommended to take a taxi or rental car.",
-    "publicTransport": "Public Transport",
-    "publicTransportDesc": "Buses to the Upper Town.",
+    "title": "Location & How to Reach Trigonion Tower in Thessaloniki",
+    "subtitle": "Detailed approaches from the airport, stations, the city centre and on foot — choose what suits your pace and luggage.",
+    "fromCenter": "From the Centre (White Tower)",
+    "fromCenterDesc": "About 3 km uphill to the Upper Town (Ano Poli). Reachable by city bus, taxi or on foot.",
+    "fromCenterSteps": [
+      "Start at the White Tower on the waterfront and head inland along the central avenues.",
+      "Take a city bus climbing toward the Upper Town, or walk up through the Ladadika and Upper Town streets.",
+      "Alight near the Acropolis walls and follow the footpath to the Trigonion Tower viewpoint."
+    ],
+    "fromStation": "From the Bus / Train Station",
+    "fromStationDesc": "The central coach and railway stations (New Station) sit west of the centre; city buses link them to the Upper Town.",
+    "fromStationSteps": [
+      "From the station forecourt, take a city bus toward the city centre / Upper Town.",
+      "Change to a line that climbs the Upper Town, or transfer near Aristotelous Square.",
+      "Finish the last stretch on foot along the stone-paved lanes to the tower."
+    ],
+    "fromAirport": "From the Airport (SKG)",
+    "fromAirportDesc": "Thessaloniki Airport 'Makedonia' (SKG) is about 18 km southeast. Best reached by taxi, ride-hailing or rental car; there is no direct train.",
+    "fromAirportSteps": [
+      "Exit the terminal and use a taxi rank, a ride-hailing app, or a pre-booked transfer to the city.",
+      "Drive or ride via the city ring road (A24/EO2) and the coastal avenue toward the centre (about 30–45 min).",
+      "From the centre, continue to the Upper Town by bus, taxi or on foot as described above."
+    ],
+    "publicTransport": "Public Transport (Bus)",
+    "publicTransportDesc": "OASTH city buses serve the Upper Town; the final approach is on foot up steep lanes.",
+    "publicTransportSteps": [
+      "Use the OASTH journey planner or a maps app to find a line to the Upper Town (Ano Poli).",
+      "Buy and validate a ticket before boarding (paper or mobile) — inspectors fine without one.",
+      "Alight at the highest convenient stop, then walk the last 5–10 minutes uphill to the walls."
+    ],
     "walking": "Walking",
-    "walkingDesc": "Walk from the center to the Upper Town (30-40 minutes).",
+    "walkingDesc": "A scenic 30–40 minute uphill walk from the waterfront through the historic centre and Upper Town.",
+    "walkingSteps": [
+      "Begin at the waterfront and climb through the Ladadika and Agias Sofias districts.",
+      "Continue up the stepped, stone-paved lanes of the Upper Town.",
+      "Follow the city wall eastward to the Trigonion Tower viewpoint."
+    ],
     "driving": "Driving",
-    "drivingDesc": "Parking available near the monument area."
+    "drivingDesc": "Navigate to the Upper Town; parking is limited, so plan to leave the car on the approach roads.",
+    "drivingSteps": [
+      "Set the destination to the Upper Town (Ano Poli); the historic core is pedestrian-priority.",
+      "Use a public car park or free roadside space on the approach roads, not inside the lanes.",
+      "Walk the final stretch — vehicles cannot reach the tower door."
+    ],
+    "taxi": "Taxi / Ride-hailing",
+    "taxiDesc": "Taxis and ride-hailing apps operate across the city and are the easiest door-to-door option, especially with luggage or in the heat.",
+    "taxiSteps": [
+      "Hail a taxi on the street, use a ranked stand, or book via a ride-hailing app.",
+      "Ask for the Upper Town / Trigonion Tower (Πύργος Τριγωνίου, Άνω Πόλη).",
+      "The car can drop you on the approach road; the last part is a short walk up."
+    ]
   },
   "route": {
     "title": "Recommended Route",
@@ -338,6 +379,18 @@
         "type": "Accessibility",
         "desc": "Reaching the tower involves steep uphill streets and uneven stone paving; the route is not step-free and is generally not suitable for wheelchairs or visitors with limited mobility. Vehicles can stop on the approach roads, but a walk over sloping ground remains necessary.",
         "tip": "Tip: visitors with limited mobility may prefer the panoramic views from the Upper Town squares and other accessible viewpoints."
+      },
+      {
+        "id": "medical",
+        "type": "Pharmacy & Medical Care",
+        "desc": "No pharmacy or clinic operates inside the monument area. Pharmacies are common in the Upper Town and the city centre, while a hospital and 24-hour pharmacies are concentrated in the centre.",
+        "tip": "Tip: pharmacists can advise on minor issues; for a medical emergency dial 112 (Europe-wide)."
+      },
+      {
+        "id": "info",
+        "type": "Tourist Information & Help",
+        "desc": "There is no ticket office or information desk at the tower itself. General tourist information is offered by the city's official tourist points and the region's tourism portals, both online and at central locations.",
+        "tip": "Tip: save an offline map before climbing, as mobile signal can weaken among the walls."
       }
     ]
   },
@@ -592,5 +645,114 @@
     },
     "save": "Save Preferences",
     "saved": "Preferences Saved!"
+  },
+  "weather": {
+    "title": "Weather & Forecast",
+    "subtitle": "Live conditions and the coming days for the Upper Town of Thessaloniki, so you can plan whether to bring a layer or an umbrella.",
+    "loading": "Loading current conditions…",
+    "unavailable": "Weather information is temporarily unavailable. Please check again shortly.",
+    "feelsLike": "Feels like",
+    "humidity": "Humidity",
+    "wind": "Wind",
+    "precip": "Chance of rain",
+    "bringUmbrella": "Rain is likely — bring an umbrella or a rain layer.",
+    "noUmbrella": "Dry conditions expected — light layers are fine.",
+    "forecast7": "7-day forecast",
+    "updated": "Updated"
+  },
+  "seasonal": {
+    "title": "Best Time to Visit — Seasonal Strategy",
+    "subtitle": "What to expect across the year in Thessaloniki's Upper Town, and how to plan around it.",
+    "colSeason": "Season",
+    "colWeather": "Typical weather",
+    "colBestFor": "Best for",
+    "colTip": "Tips",
+    "source": "Patterns summarise the 30-year climate normals (1991–2020) for Thessaloniki. Always check the official forecast before you travel, as conditions vary year to year.",
+    "rows": [
+      {
+        "season": "Spring (Mar–May)",
+        "weather": "Mild and bright, with blooming gardens and the occasional shower.",
+        "bestFor": "Walking the walls, photography, and the UNESCO churches.",
+        "tip": "Dress in layers; a light rain layer handles passing showers."
+      },
+      {
+        "season": "Summer (Jun–Aug)",
+        "weather": "Hot, dry and sunny, with strong midday sun and little rain.",
+        "bestFor": "Early-morning and sunset visits; the tower is a famous sunset spot.",
+        "tip": "Visit at opening or near sunset; carry water, a hat and sunscreen, as shade is limited."
+      },
+      {
+        "season": "Autumn (Sep–Nov)",
+        "weather": "Warm at first, then mild, with clear light and fewer crowds.",
+        "bestFor": "Panoramic walks, clear photography and relaxed sightseeing.",
+        "tip": "Generally stable; a light jacket covers cooler evenings."
+      },
+      {
+        "season": "Winter (Dec–Feb)",
+        "weather": "Cool and rainy, with occasional cold snaps and crisp clear-view days.",
+        "bestFor": "Quiet visits and atmospheric, crowd-free viewpoints.",
+        "tip": "Check wind and rain; some facilities keep reduced hours."
+      }
+    ]
+  },
+  "itineraries": {
+    "title": "Suggested Routes & Itineraries",
+    "subtitle": "Pick a pace and a focus — from a quick half-day walk to a full day, or a route matched to your travel style.",
+    "generalTitle": "By duration",
+    "halfDay": {
+      "title": "Half-day walk",
+      "duration": "≈ 3–4 hours",
+      "overview": "A compact loop linking the tower with the highlights of the Upper Town.",
+      "steps": [
+        "Start from the waterfront or Aristotelous Square.",
+        "Climb the stone lanes of the Upper Town to the Acropolis walls.",
+        "Reach the Trigonion Tower viewpoint — the 'balcony of Thessaloniki'.",
+        "Follow the walls toward the Heptapyrgion.",
+        "Visit Vlatadon Monastery, then descend through the old quarter."
+      ]
+    },
+    "fullDay": {
+      "title": "Full-day exploration",
+      "duration": "≈ 6–7 hours",
+      "overview": "Combine the Upper Town monuments with the city-centre Byzantine heritage.",
+      "steps": [
+        "Morning: Trigonion Tower, the walls and Vlatadon Monastery.",
+        "Late morning: Heptapyrgion and the Byzantine Bath.",
+        "Lunch in the Upper Town or the centre.",
+        "Afternoon: Rotunda, Hagia Sophia and Agios Dimitrios in the centre.",
+        "Evening: return to the walls for the sunset."
+      ]
+    },
+    "audienceTitle": "By traveller type",
+    "families": {
+      "title": "Families with children",
+      "desc": "Short, manageable stretches with history made fun and plenty of rest stops.",
+      "steps": [
+        "Take a taxi or bus most of the way up to spare little legs.",
+        "Explore the viewpoint and open ramparts with a 'spot the ship' game.",
+        "Reward the climb with a treat at an Upper Town café.",
+        "Keep the walk gentle and head back before tiredness sets in."
+      ]
+    },
+    "photography": {
+      "title": "Photography & nature",
+      "desc": "Golden-hour and blue-hour timing for the best light over the city and gulf.",
+      "steps": [
+        "Scout compositions on the walls during the afternoon.",
+        "Shoot the sunset over the Thermaic Gulf from the tower.",
+        "Stay for blue hour and the first city lights.",
+        "Return at first light for soft, crowd-free frames."
+      ]
+    },
+    "accessible": {
+      "title": "Low-mobility / accessible",
+      "desc": "Views without the steep climb — reachable viewpoints and flat alternatives.",
+      "steps": [
+        "Drive or taxi to an Upper Town square that has a viewpoint.",
+        "Enjoy panoramic views without climbing the tower itself.",
+        "Use the seafront promenade and centre squares for flat walking.",
+        "Plan rest stops; surfaces near the walls are uneven."
+      ]
+    }
   }
 }
