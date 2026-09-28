@@ -3,6 +3,8 @@ import createNextIntlPlugin from 'next-intl/plugin';
 const withNextIntl = createNextIntlPlugin('./src/i18n/request.ts');
 
 const nextConfig = {
+  // @opennextjs/cloudflare 需要 standalone 产物
+  output: 'standalone' as const,
   outputFileTracingRoot: process.cwd(),
   images: {
     remotePatterns: [
