@@ -1,6 +1,5 @@
-import { cloudflare } from "@opennextjs/cloudflare";
+import { defineCloudflareConfig } from "@opennextjs/cloudflare";
 
-export default cloudflare({
-  // The build output (.open-next) is uploaded by `wrangler deploy`.
-  // Routes are handled by the generated Worker; no extra overrides needed.
-});
+// The build output (.open-next) is uploaded by `wrangler deploy`.
+// No custom overrides are needed: the default handlers cover this site.
+export default defineCloudflareConfig();
